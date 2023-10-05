@@ -1,0 +1,146 @@
+/* FONTS */
+/* ----------------------------------------------------- */
+@font-face {
+    font-family: 'DM Mono';
+    src: url('DMMono-Regular.eot');
+    src: url('DMMono-Regular.eot?iefix') format(embedded-opentype),
+         url('DMMono-Regular.ttf') format(truetype),
+         url('DMMono-Regular.woff') format(woff),
+         url('DMMono-Regular.woff2') format(woff2);
+         font-weight: normal;
+         font-size: normal;
+}
+@font-face {
+    font-family: 'Gabarito';
+    src: url('Gabarito-Regular.eot');
+    src: url('Gabarito-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Gabarito-Regular.woff') format('woff'),
+         url('Gabarito-Regular.woff2') format('woff2'),
+         url('Gabarito-VariableFont_wght.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+  }
+
+/* CSS RESETS */
+/* ----------------------------------------------------- */
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1,h2,h3,h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* BODY STYLING */
+/* ------------------------------------------------------ */
+html {
+    font-size: 20px;
+    font-family: 'Gabarito', sans-serif;
+    letter-spacing: 0.02em;
+
+}
+
+body { 
+    background-color: rgba(0, 0, 0, 0.227);
+}
+#topnav {
+    overflow: hidden;
+    background-color: rgb(62, 153, 213);
+    border-bottom: solid black 2px;
+    height: 5vh;
+    padding-top: 0.8vh;
+}
+#topnav a {
+    float:left;
+    color:black;
+    text-align: center;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#topnav a:hover {
+    background-color: black;
+    color: white;
+}
+#heading1 {
+    background-color: rgb(249, 243, 243);
+    font-size: 1.5rem;
+    text-align: center;
+    border: solid black 1px;
+    margin: 30px 25%;
+    margin-top: 50px;
+}
+
+main{
+    margin: auto;
+}
+
+.images {
+    max-height: calc(100vh  - 100px);
+    border: solid black 1px;
+    display: block
+}
+#topnav { 
+    position: fixed; top: 0; width: 100%;
+}
+.captions { 
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 30px;
+    margin: 0 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2vh;
+    margin-top: 2vh;
+}
+#phone1 {
+    display: inline;
+}
+#tablet1 {
+    display: inline;
+}
+
+#website1  > div > div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 11vw;
+}
+#website2  > div > div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 11vw;
+}
+h2 { 
+    text-align: center;
+    font-variant: small-caps;
+    margin: 100px 500px;
+    border: solid black 1px;
+    background-color: rgb(249, 243, 243);
+}
+figure{ 
+    display: inline-block;
+}
