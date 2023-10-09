@@ -1,0 +1,36 @@
+html {
+    font-size:  24px;
+    color: white;
+}
+
+
+/*BODY*/
+/* --------------------------------- */
+body {
+    background-color: rgb(90, 84, 84);
+}
+
+.image {
+
+    max-height: 400px;
+    max-width: 600px;
+    border: solid white 3px;
+    margin-left: 0.4vw;
+}
+button {
+    margin-left: 5%;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(110, 9, 9);
+    color: antiquewhite;
+    border: solid white 2px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+div {
+    background-color: aquamarine;
+    width: 620px
+}
