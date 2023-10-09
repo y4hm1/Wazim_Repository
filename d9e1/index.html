@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+            
+    <head>       
+        <meta charset="utf-8">
+        <meta name="author" content="Wazim Mohammed">
+        <meta name="description" content=" ">
+        <meta name="keywords" content=" ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+        <title>Day 9 Exercise 1</title>
+
+        <!-- Socials -->
+        <meta property="og:title" content=" " />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content=" " />
+        <meta property="og:image" content="assets/ .jpg" />
+        <meta property="og:url" content=" .com" />
+        <meta name="twitter:title" content=" ">
+        <meta name="twitter:description" content=" ">
+        <meta name="twitter:image" content="assets/ .jpg">
+        <meta name="twitter:card" content="assets/ .jpg">
+
+        <!-- CSS -->
+        <link href="assets/style.css" rel="stylesheet" type="text/css">
+                
+        <!--JavaScript -->
+        <script type="text/javascript" src="assets/script.js" defer></script> 
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="assets/favicon.ico"> 
+
+    </head>       
+
+    <body>
+        <div>
+            <label for="text-input">Enter your text here</label>
+            <br>
+            <input type="text" id="text-input" oninput="textInput()">
+        </div>
+        <div id="output-box1">
+            </div>
+        <div id="two">
+            <label for="number-input">Change size of the text below</label>
+            <br>
+            <input type="number" id="number-input" onchange="numberInput()">
+        </div>
+        <div id="output-box2">
+            Sample Text
+        </div>
+        <div id="three">
+            <label for="slider-input">Change the thickness of the border below</label>
+            <br>
+            <input type="range" id="slider-input" onchange="sliderInput()" min="1" max="100">
+        </div>
+        <div id="output-box3">
+            I am using Javascript to do this.
+        </div>
+        <div id="four">
+            Choose a color 
+            <br>
+            <input type="radio" id="rdi1" name="radio-buttons" onclick="radioInput1()" value="black">
+            <label>Black</label>
+            <br>
+            <input type="radio" id="rdi2" name="radio-buttons" onclick="radioInput2()" value="yellow">
+            <label>Yellow</label>
+            <br>
+            <input type="radio" id="rdi3" name="radio-buttons" onclick="radioInput3()" value="green">
+            <label>Green</label>
+            <br>
+            <input type="radio" id="rdi4" name="radio-buttons" onclick="radioInput4()" value="purple">
+            <label>Purple</label>
+            <br>
+        </div>
+        <div id="output-box4">
+            Coding for the Web
+        </div>
+        <div id="five">
+            <select id="drop-down-input" onchange="dropDownInput()">
+                <option value="./assets/images/deku.jpg">Deku</option>
+                <option value="./assets/images/isagi.jpg">Isagi Yoichi</option>
+                <option value="./assets/images/mob.jpg">Mob</option>
+                <option value="./assets/images/Seishiro_Nagi.jpeg">Nagi Seishiro</option>
+            </select>
+        </div>
+        <div id="output-box5">
+            <img id="image" src="./assets/images/deku.jpg">
+        </div>
+
+        
+
+
+    </body>
+</html>
