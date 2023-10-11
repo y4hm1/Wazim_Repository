@@ -110,7 +110,12 @@ div.left {
 }
 
 @media screen and (max-width:965px) {
-    #s4 div > div {
+    #s4 div.left > div {
+        background-color: lightseagreen;
+        flex-basis: auto;
+        width: auto;
+    }
+    #s4 div.right > div {
         background-color: lightseagreen;
         flex-basis: auto;
         width: auto;
@@ -118,12 +123,19 @@ div.left {
 }
 
 @media screen and (max-width:650px) {
-    #s4 div > div {
+    #s4 div.left > div {
         background-color: lightslategrey;
         flex-basis: auto;
         width: auto;
+        
+    }
+    #s4 div.right > div {
+        background-color: lightslategrey;
+        flex-basis: auto;
+        width: auto;
+        
     }
     #s4 div.right {
-        flex-wrap: nowrap;
+        flex-basis: auto;
     }
 }
