@@ -1,0 +1,108 @@
+/* CSS RESETS */
+/* ----------------------------------------------------- */
+
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html    {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+/* ACTUAL STYLING */
+/* ----------------------------------------------------- */
+
+#div-1 { 
+    font-weight: 800;
+    position: absolute;
+    background-color: lightskyblue;
+    height: 70vh;
+    width: 45vw;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 235px;
+    outline: solid black 1px;
+}
+
+#div-2 {
+    font-weight: 800;
+    background-color: yellowgreen;
+    height: 15vh;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    padding-top: 50px;
+    outline: solid black 1px;
+}
+
+.closed {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+#div-3 { 
+    font-weight: 800;
+    background-color: lightseagreen;
+    height: 45vh;
+    width: 30vw;
+    text-align: center;
+    padding-top: 140px;
+    outline: solid black 1px;
+    position: fixed;
+}
+
+.closemenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: lightcoral;
+    margin: 5px;
+}
+
+#btn1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    margin: 20px; 
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#btn2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    margin: 20px; 
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
