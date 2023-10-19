@@ -48,7 +48,6 @@ function updateRotation() {
     spin.progress(progressWrap(p));
 }
 
-TweenLite.to("#test", 5, {delay:1.5, scrambleText:{text:"I sure hope this works for you.", rightToLeft:true, chars:"lowercase"}})
 
 
 
