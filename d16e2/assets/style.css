@@ -1,0 +1,68 @@
+/* CSS RESETS */
+/* ----------------------------------------------------- */
+
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html    {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+/* ACTUAL STYLING */
+/* ----------------------------------------------------- */
+
+body { 
+    padding: 50px;
+}
+
+
+#Layer_1 { 
+    width: 25vw;
+    fill: lightcoral;
+    stroke: black;
+    transition: 1s ease;
+}
+
+#Layer_1:hover { 
+    fill: aquamarine;
+    transition: 1s ease;
+}
+
+#svg2 { 
+    width: 25vw;
+    fill: lightcoral;
+    stroke: black;
+    transition: 1s ease;
+}
+#st1 { 
+    fill: black;
+}
+#st2 { 
+    fill: blue;
+}
+
+#svg2:hover .st1 { 
+    fill: aliceblue;
+    transition: 1s ease;
+}
+#svg2:hover .st2 { 
+    display: none;
+    transition: 1s ease;
+}
