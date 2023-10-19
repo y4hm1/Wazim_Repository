@@ -71,7 +71,7 @@ body {
     overflow: hidden;
     background-color: rgb(62, 153, 213);
     border-bottom: solid black 2px;
-    height: 5vh;
+    height: 45px;
     padding-top: 0.8vh;
 }
 #topnav a {
@@ -111,7 +111,7 @@ main{
     text-align: center;
     font-size: 1.3rem;
     padding-top: 30px;
-    margin: 0 100px;
+    margin: 0 10%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 2vh;
@@ -129,18 +129,26 @@ main{
     text-align: center;
     margin-left: 11vw;
 }
-#website2  > div > div {
-    display: inline-block;
+.container {
+    display: block;
     text-align: center;
-    margin-left: 11vw;
+    margin: 0 auto;
 }
 h2 { 
     text-align: center;
     font-variant: small-caps;
-    margin: 100px 500px;
+    margin: 100px 25%;
     border: solid black 1px;
     background-color: rgb(249, 243, 243);
 }
 figure{ 
     display: inline-block;
+}
+
+section { 
+    scroll-margin-top: 40px;
+}
+
+div { 
+    scroll-margin-top: 40px;
 }
