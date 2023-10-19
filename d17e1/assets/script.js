@@ -3,7 +3,7 @@
 
 gsap.registerPlugin(TextPlugin)
 
-gsap.registerPlugin(Draggable, InertiaPlugin);
+gsap.registerPlugin(Draggable);
 
 var cards = gsap.utils.toArray(".creative-pro"),
     dragDistancePerRotation = 3000,
