@@ -1,0 +1,171 @@
+/* CSS RESETS */
+/* ----------------------------------------------------- */
+
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html    {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+/* ACTUAL STYLING */
+/* ----------------------------------------------------- */
+
+
+/* GENERAL STYLING */
+
+::selection { 
+    color: purple;
+    background-color: yellow;
+}
+
+::-moz-selection { 
+    color: purple;
+    background-color: yellow;
+}
+
+body { 
+    font-size: 24px;
+    font-family: monospace;
+    background-color: rgb(37, 9, 37);
+    width: 100%;
+    color: yellowgreen;
+}
+
+
+
+/* -------------------------------------- */
+h1 { 
+    text-align: center;
+    font-size: 2em;
+    border: solid yellowgreen 2px;
+    width: 700px;
+    margin: auto;
+    color: chartreuse;
+}
+
+#header { 
+    padding-top: 230px;
+    height: 90vh;
+    width: 100%;
+    background-image: url(./images/image-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    outline: solid yellowgreen 2px;
+
+}
+
+img { 
+    width: 500px;
+    outline: solid yellowgreen 2px;
+}
+
+p { 
+    width: 60%;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+
+#caption2 { 
+    width: 60%;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 1em;
+}
+
+
+.layout { 
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    padding: 10px;
+
+}
+
+a { 
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+}
+
+button { 
+    width: 100%;
+    padding: 7px;
+    background-color: yellowgreen;
+    color:  rgb(37, 9, 37);
+    font-family: monospace;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { 
+    transition: 0.5s;
+    color: yellowgreen;
+    background-color: rgb(37, 9, 37);
+    outline: solid yellowgreen 2px;
+}
+
+#choice { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 { 
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
+@media (max-width: 1082px) { 
+
+    .layout { 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-2 { 
+        flex-direction:column-reverse;
+    }
+
+    p { 
+        width: 80%;
+        font-size: 1em;
+    }
+
+    h2 { 
+        text-align: center;
+    }
+
+}
+@media (max-width: 700px) { 
+    h1 { 
+        width: 100%;
+    }
+    
+    #choice { 
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,204 @@
+/* CSS RESETS */
+/* ----------------------------------------------------- */
+
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html    {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1 { 
+    margin: 0;
+}
+
+/* ACTUAL STYLING */
+/* ----------------------------------------------------- */
+
+/* GENERAL STYLING */
+
+::selection { 
+    color: brown;
+    background-color: white;
+}
+
+::-moz-selection { 
+    color: brown;
+    background-color: white;
+}
+
+body { 
+    font-size: 24px;
+    font-family: monospace;
+    background-color: brown;
+    color: yellow;
+}
+
+
+/* ---------------------------------------------------------- */
+
+h1 { 
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#header { 
+    padding-top: 225px;
+    height: 70vh;
+    width: 100%;
+    background-image: url(./images/renaissance.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#choice-1 { 
+    width: 50vw;
+}
+
+.image { 
+    width: 350px;
+    border: solid yellow 2px;
+}
+
+p { 
+    width: 50%;
+    margin: 0 auto;
+}
+
+.decision { 
+    margin: 0 auto;
+    width: 200px;
+}
+
+.norm { 
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: yellow;
+    color: brown;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.norm:hover { 
+    transition: 0.5s;
+    transform: rotate(360deg);
+    color: yellow;
+    background-color: brown;
+    outline: solid yellow 2px;
+}
+
+
+#choice-2 { 
+    width: 50vw;
+}
+
+section { 
+    display: flex;
+    align-items: center;
+}
+
+h3 { 
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main { 
+    background-image: url(./images/texture-1.jpg);
+    border-top: solid black 5px;
+}
+
+/* --------------------- STYLING FOR BUTTON AND IT'S FUNCTIONS ---------------- */
+
+.btn1 { 
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-family: monospace;
+    transition: 0.3s;
+}
+
+.btn1:hover { 
+    color: yellowgreen;
+    background-color: purple;
+    transition: 0.3s;
+}
+
+#hint { 
+    height: auto;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: solid black 2px;
+    padding: 5px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+#closebtn { 
+    width: auto;
+    height: 20px;
+    padding-bottom: 19px;
+    background-color: red;
+    color: black;
+    border-radius: 25px;
+    font-family: monospace;
+}
+
+.closed { 
+    display:none;
+}
+.open { 
+    display: block;
+}
+
+main { 
+    position: relative;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 620px) { 
+
+    section { 
+        flex-direction: column;
+    }
+    
+    #hint {
+        font-size: 18px;
+     }
+
+    main { 
+        font-size: 15px;
+    } 
+
+    h1 { 
+        font-size: 45px;
+    }
+}
